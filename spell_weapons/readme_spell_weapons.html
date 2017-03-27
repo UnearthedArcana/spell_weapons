@@ -14,7 +14,7 @@
 </div>
 <h2>Overview</h2>
 <div class="section">
-  <p>Ever walk around with Dakkon's Zerth Blade, and cast Melf's Minute Meteors, only to immediately kick yourself because you just lost your extra spell slots? This mod aims to fix that.  It gives you a 30-second window after unequipping the Zerth Blade, to re-equip it without losing your extra spell slots.  You still need to <i>mostly</i> have the Zerth Blade equipped... but the occasional brief use of a missile weapon or MMM should be okay.</p>
+  <p>Ever walk around with Dakkon's Zerth Blade, and cast Melf's Minute Meteors, only to immediately kick yourself because you just lost your extra spell slots? This mod aims to fix that.  It gives you a 60-second window after unequipping the Zerth Blade, to re-equip it without losing your extra spell slots.  You still need to <i>mostly</i> have the Zerth Blade equipped... but the occasional brief use of a missile weapon or MMM should be okay.</p>
   <p>It also works on the +spells weapons in IWDEE, such as the Mage Daggers and Sanctified War Hammers. </p>
 </div>
 <h2>Installation</h2>
