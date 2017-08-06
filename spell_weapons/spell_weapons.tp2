@@ -1,7 +1,7 @@
 BACKUP ~spell_weapons/backup~
 AUTHOR ~SubtleD~
 
-VERSION ~1.1~
+VERSION ~1.2~
 
 BEGIN ~More Persistent Spell Weapons~
 
@@ -38,35 +38,35 @@ ACTION_FOR_EACH spell_weapon IN ~udagg3b~ ~ulswd4b~ BEGIN
   ACTION_IF FILE_EXISTS_IN_GAME ~%spell_weapon%.itm~ BEGIN
 	COPY_EXISTING ~%spell_weapon%.itm~ ~override~
 	LPF DELETE_EFFECT INT_VAR match_opcode = 42 END
-	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 146 target = 1 parameter2 = 1 timing = 2 STR_VAR resource = ~d5wspl1a~ END
-	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 146 target = 1 parameter2 = 1 timing = 2 STR_VAR resource = ~d5wspl1~ END
-	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 206 target = 1 parameter1 = (0 - 1) timing = 2 STR_VAR resource = ~d5wspl1c~ END
-	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 206 target = 1 parameter1 = (0 - 1) timing = 2 STR_VAR resource = ~d5wspl1b~ END
-	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 321 target = 1 timing = 2 STR_VAR resource = ~d5wspl1b~ END
+	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 146 target = 1 parameter2 = 1 timing = 2 STR_VAR resource = ~d5wspl2a~ END
+	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 146 target = 1 parameter2 = 1 timing = 2 STR_VAR resource = ~d5wspl2~ END
+	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 206 target = 1 parameter1 = (0 - 1) timing = 2 STR_VAR resource = ~d5wspl2c~ END
+	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 206 target = 1 parameter1 = (0 - 1) timing = 2 STR_VAR resource = ~d5wspl2b~ END
+	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 321 target = 1 timing = 2 STR_VAR resource = ~d5wspl2b~ END
   END
 END
 
-ACTION_FOR_EACH spell_weapon IN ~udagg4b~ ~udagg5a~ BEGIN
+ACTION_FOR_EACH spell_weapon IN ~udagg4b~ BEGIN
   ACTION_IF FILE_EXISTS_IN_GAME ~%spell_weapon%.itm~ BEGIN
 	COPY_EXISTING ~%spell_weapon%.itm~ ~override~
 	LPF DELETE_EFFECT INT_VAR match_opcode = 42 END
-	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 146 target = 1 parameter2 = 1 timing = 2 STR_VAR resource = ~d5wspl1a~ END
-	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 146 target = 1 parameter2 = 1 timing = 2 STR_VAR resource = ~d5wspl1~ END
-	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 206 target = 1 parameter1 = (0 - 1) timing = 2 STR_VAR resource = ~d5wspl1c~ END
-	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 206 target = 1 parameter1 = (0 - 1) timing = 2 STR_VAR resource = ~d5wspl1b~ END
-	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 321 target = 1 timing = 2 STR_VAR resource = ~d5wspl1b~ END
+	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 146 target = 1 parameter2 = 1 timing = 2 STR_VAR resource = ~d5wspl3a~ END
+	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 146 target = 1 parameter2 = 1 timing = 2 STR_VAR resource = ~d5wspl3~ END
+	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 206 target = 1 parameter1 = (0 - 1) timing = 2 STR_VAR resource = ~d5wspl3c~ END
+	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 206 target = 1 parameter1 = (0 - 1) timing = 2 STR_VAR resource = ~d5wspl3b~ END
+	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 321 target = 1 timing = 2 STR_VAR resource = ~d5wspl3b~ END
   END
 END
 
-ACTION_FOR_EACH spell_weapon IN ~wa2dak~ BEGIN
+ACTION_FOR_EACH spell_weapon IN ~wa2dak~ ~udagg5a~ BEGIN
   ACTION_IF FILE_EXISTS_IN_GAME ~%spell_weapon%.itm~ BEGIN
 	COPY_EXISTING ~%spell_weapon%.itm~ ~override~
 	LPF DELETE_EFFECT INT_VAR match_opcode = 42 END
-	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 146 target = 1 parameter2 = 1 timing = 2 STR_VAR resource = ~d5wspl1a~ END
-	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 146 target = 1 parameter2 = 1 timing = 2 STR_VAR resource = ~d5wspl1~ END
-	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 206 target = 1 parameter1 = (0 - 1) timing = 2 STR_VAR resource = ~d5wspl1c~ END
-	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 206 target = 1 parameter1 = (0 - 1) timing = 2 STR_VAR resource = ~d5wspl1b~ END
-	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 321 target = 1 timing = 2 STR_VAR resource = ~d5wspl1b~ END
+	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 146 target = 1 parameter2 = 1 timing = 2 STR_VAR resource = ~d5wspl4a~ END
+	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 146 target = 1 parameter2 = 1 timing = 2 STR_VAR resource = ~d5wspl4~ END
+	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 206 target = 1 parameter1 = (0 - 1) timing = 2 STR_VAR resource = ~d5wspl4c~ END
+	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 206 target = 1 parameter1 = (0 - 1) timing = 2 STR_VAR resource = ~d5wspl4b~ END
+	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 321 target = 1 timing = 2 STR_VAR resource = ~d5wspl4b~ END
   END
 END
 
@@ -74,11 +74,11 @@ ACTION_FOR_EACH spell_weapon IN ~u1ham2a~ BEGIN
   ACTION_IF FILE_EXISTS_IN_GAME ~%spell_weapon%.itm~ BEGIN
 	COPY_EXISTING ~%spell_weapon%.itm~ ~override~
 	LPF DELETE_EFFECT INT_VAR match_opcode = 62 END
-	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 146 target = 1 parameter2 = 1 timing = 2 STR_VAR resource = ~d5wspl1a~ END
-	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 146 target = 1 parameter2 = 1 timing = 2 STR_VAR resource = ~d5wspl1~ END
-	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 206 target = 1 parameter1 = (0 - 1) timing = 2 STR_VAR resource = ~d5wspl1c~ END
-	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 206 target = 1 parameter1 = (0 - 1) timing = 2 STR_VAR resource = ~d5wspl1b~ END
-	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 321 target = 1 timing = 2 STR_VAR resource = ~d5wspl1b~ END
+	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 146 target = 1 parameter2 = 1 timing = 2 STR_VAR resource = ~d5pspl1a~ END
+	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 146 target = 1 parameter2 = 1 timing = 2 STR_VAR resource = ~d5pspl1~ END
+	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 206 target = 1 parameter1 = (0 - 1) timing = 2 STR_VAR resource = ~d5pspl1c~ END
+	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 206 target = 1 parameter1 = (0 - 1) timing = 2 STR_VAR resource = ~d5pspl1b~ END
+	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 321 target = 1 timing = 2 STR_VAR resource = ~d5pspl1b~ END
   END
 END
 
@@ -86,11 +86,11 @@ ACTION_FOR_EACH spell_weapon IN ~umstr3b~ BEGIN
   ACTION_IF FILE_EXISTS_IN_GAME ~%spell_weapon%.itm~ BEGIN
 	COPY_EXISTING ~%spell_weapon%.itm~ ~override~
 	LPF DELETE_EFFECT INT_VAR match_opcode = 62 END
-	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 146 target = 1 parameter2 = 1 timing = 2 STR_VAR resource = ~d5wspl1a~ END
-	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 146 target = 1 parameter2 = 1 timing = 2 STR_VAR resource = ~d5wspl1~ END
-	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 206 target = 1 parameter1 = (0 - 1) timing = 2 STR_VAR resource = ~d5wspl1c~ END
-	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 206 target = 1 parameter1 = (0 - 1) timing = 2 STR_VAR resource = ~d5wspl1b~ END
-	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 321 target = 1 timing = 2 STR_VAR resource = ~d5wspl1b~ END
+	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 146 target = 1 parameter2 = 1 timing = 2 STR_VAR resource = ~d5pspl2a~ END
+	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 146 target = 1 parameter2 = 1 timing = 2 STR_VAR resource = ~d5pspl2~ END
+	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 206 target = 1 parameter1 = (0 - 1) timing = 2 STR_VAR resource = ~d5pspl2c~ END
+	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 206 target = 1 parameter1 = (0 - 1) timing = 2 STR_VAR resource = ~d5pspl2b~ END
+	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 321 target = 1 timing = 2 STR_VAR resource = ~d5pspl2b~ END
   END
 END
 
@@ -98,11 +98,11 @@ ACTION_FOR_EACH spell_weapon IN ~u2ham3a~ ~xu2ham3~ ~umstar4a~ BEGIN
   ACTION_IF FILE_EXISTS_IN_GAME ~%spell_weapon%.itm~ BEGIN
 	COPY_EXISTING ~%spell_weapon%.itm~ ~override~
 	LPF DELETE_EFFECT INT_VAR match_opcode = 62 END
-	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 146 target = 1 parameter2 = 1 timing = 2 STR_VAR resource = ~d5wspl1a~ END
-	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 146 target = 1 parameter2 = 1 timing = 2 STR_VAR resource = ~d5wspl1~ END
-	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 206 target = 1 parameter1 = (0 - 1) timing = 2 STR_VAR resource = ~d5wspl1c~ END
-	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 206 target = 1 parameter1 = (0 - 1) timing = 2 STR_VAR resource = ~d5wspl1b~ END
-	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 321 target = 1 timing = 2 STR_VAR resource = ~d5wspl1b~ END
+	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 146 target = 1 parameter2 = 1 timing = 2 STR_VAR resource = ~d5pspl3a~ END
+	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 146 target = 1 parameter2 = 1 timing = 2 STR_VAR resource = ~d5pspl3~ END
+	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 206 target = 1 parameter1 = (0 - 1) timing = 2 STR_VAR resource = ~d5pspl3c~ END
+	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 206 target = 1 parameter1 = (0 - 1) timing = 2 STR_VAR resource = ~d5pspl3b~ END
+	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 321 target = 1 timing = 2 STR_VAR resource = ~d5pspl3b~ END
   END
 END
 
@@ -110,11 +110,11 @@ ACTION_FOR_EACH spell_weapon IN ~u1ham4b~ BEGIN
   ACTION_IF FILE_EXISTS_IN_GAME ~%spell_weapon%.itm~ BEGIN
 	COPY_EXISTING ~%spell_weapon%.itm~ ~override~
 	LPF DELETE_EFFECT INT_VAR match_opcode = 62 END
-	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 146 target = 1 parameter2 = 1 timing = 2 STR_VAR resource = ~d5wspl1a~ END
-	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 146 target = 1 parameter2 = 1 timing = 2 STR_VAR resource = ~d5wspl1~ END
-	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 206 target = 1 parameter1 = (0 - 1) timing = 2 STR_VAR resource = ~d5wspl1c~ END
-	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 206 target = 1 parameter1 = (0 - 1) timing = 2 STR_VAR resource = ~d5wspl1b~ END
-	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 321 target = 1 timing = 2 STR_VAR resource = ~d5wspl1b~ END
+	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 146 target = 1 parameter2 = 1 timing = 2 STR_VAR resource = ~d5pspl4a~ END
+	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 146 target = 1 parameter2 = 1 timing = 2 STR_VAR resource = ~d5pspl4~ END
+	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 206 target = 1 parameter1 = (0 - 1) timing = 2 STR_VAR resource = ~d5pspl4c~ END
+	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 206 target = 1 parameter1 = (0 - 1) timing = 2 STR_VAR resource = ~d5pspl4b~ END
+	LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 321 target = 1 timing = 2 STR_VAR resource = ~d5pspl4b~ END
   END
 END
 //__________________________________________________________________________________
